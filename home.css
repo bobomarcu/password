@@ -1,0 +1,71 @@
+body{
+    background: rgb(216,232,216);
+    background: linear-gradient(90deg, rgba(216,232,216,1) 0%, rgb(101, 208, 230) 100%);
+    
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.home{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    padding: 25px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+
+} 
+
+input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+  
+        border-top-width: 0px ;
+        border-left-width: 0px ;
+        border-right-width: 0px ;
+        border-style: solid;
+        border-color: rgb(39, 39, 39);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    
+    
+    
+}input:focus{
+        border-top-width: 0px ;
+        border-left-width: 0px ;
+        border-right-width: 0px ;
+        outline: none !important;
+        border-color: #000000;
+    
+}
+button{
+    margin-top: 30px;
+    height: 35px;
+    width:125px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(44, 44, 44);
+    color: rgb(231, 231, 231);
+}
+@media only screen and  (max-width:1000px){
+    .home{
+        height: 425px;
+        width: 275px;
+        background-color: white;
+        padding: 25px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        text-align: center;
+    
+    } 
+}
